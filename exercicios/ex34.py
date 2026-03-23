@@ -92,7 +92,6 @@ def main():
         elif opcao == 4: 
             limpar_tela()
             header("retirada de epi")
-            
             retirar_epi()
         
         elif opcao == 5:
@@ -103,4 +102,3 @@ def main():
             print("Opção invalida")
             
 main()
-        
