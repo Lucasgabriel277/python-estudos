@@ -1,0 +1,27 @@
+Cria um sistema de controle de EPIs com as seguintes funcionalidades:
+
+Cadastrar EPI com nome, código e quantidade em estoque
+Listar todos os EPIs
+Buscar EPI pelo código — usando função com return
+Retirar EPI do estoque — usa a função de busca antes de subtrair a quantidade
+Sair
+
+Regras:
+
+A busca deve ser uma função buscar_epi(codigo) que retorna o EPI ou None
+Não pode retirar se a quantidade for zero
+Código do EPI é string
+
+1 - uma função de coleta de dados, salvar em uma lista de dicionarios
+2 - criar uma função que busca pelo codigo de EPI informado e retornar o EPI pelo codigo
+3 - uma função para subtrair quando o EPI for retirado
+4 - criar uma função chamada main para chamar as outras funções 
+5 - criar uma função que encerre o sistema ou mande o usuario tentar novamente a opção
+6 - chamar a função main
+
+2 para cada epi dentro de lista epi:
+    se epi["nome"] for igual a nome:
+        retorna nome
+  return None
+
+    
