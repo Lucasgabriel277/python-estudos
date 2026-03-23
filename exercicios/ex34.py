@@ -51,6 +51,8 @@ def retirar_epi():
     if resultado:                          # EPI encontrado?
         if resultado['quantidade'] > 0:    # tem estoque?
             resultado['quantidade'] -= 1
+            print("Epi retirado com sucesso!")
+            
         else:
             print("estoque zerado")        # aparece quando quantidade é zero
     else:
